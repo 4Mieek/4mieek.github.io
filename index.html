@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Herramientas en linea para todo tipo de cosas.">
+    <meta name="keywords" content="timestamp, discord timestamp, discord">
+    <meta name="author" content="4Mieek">
+    <meta name="robots" content="nosnippet">
+    <meta name="robots" content="noarchive">
+    <meta name="robots" content="noimageindex">
+
+    <meta name="OG:TITLE" content="Pagina 4Mieek">
+    <meta name="OG:IMAGE" content="">
+    <meta name="OG:description" content="">
+    <meta name="OG:url" content="">
+    <!--- metatags.io para checar como se mira--->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/src/logo_4mieek_github.png" type="image/png">
+    <title>4Mieek | Inicio</title>
+</head>
+<body>
+    
+    <div class="box">
+        <h2 class="title">TIMESTAMP DISCORD</h2>
+        
+        <div class="box_separator">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="" id="fecha">
+            <label for="tiempo">Horario</label>
+            <input type="time" name="" id="tiempo">
+            <label for="type">Tipo</label>
+            <select id="type">
+                <option value="R">Relativo</option>
+                <option value="d">Cita corta</option>
+                <option value="D">Cita larga</option>
+                <option value="t">Poco tiempo</option>
+                <option value="T">Mucho tiempo</option>
+                <option value="f">Cita larga con poco tiempo</option>
+                <option value="F">Cita larga con dia de la semana y poco tiempo</option>
+            </select>
+            <input type="text" id="inResult" readonly>
+            <button class="btn_copiar" id="btn_copiar" onclick=copy()>copiar</button>
+                <button class="btn_reset" onclick=reset()>resetear</button>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
