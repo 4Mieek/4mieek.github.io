@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Busqueda de google -->
+    <title>4Mieek | Timestamp Discord</title>
+    <meta name="title" content="4Mieek | Timestamp Discord">
+    <meta name="description" content="Calcular timestamp de discord.">
+
+    <!-- EXTRA -->
+    <meta name="keywords" content="timestamp, discord timestamp, timestamp discord, discord, discord tiempo, tiempo discord">
+    <meta name="author" content="4Mieek">
+    <meta name="robots" content="nosnippet">
+    <meta name="robots" content="noarchive">
+    <meta name="robots" content="noimageindex">
+    <link rel="icon" href="/src/logo_4mieek_github.png" type="image/png">
+    <link rel="stylesheet" href="/css/style_timestamp_discord.css">
+</head>
+<body>
+
+    <div class="box">
+        <label class="title"><h1>TIMESTAMP DE DISCORD</h1></label>
+        <div class="container">
+            <label class="textStyle" for="fecha">Fecha</label>
+            <input type="date" id="fecha">
+            <label class="textStyle" for="horario">Horario</label>
+            <input type="time" id="horario">
+            <label class="textStyle" for="opcion">Tipo</label>
+            <select class="selectOption" id="opcion">
+                <option value="R">Relativo</option>
+                <option value="d">Cita corta</option>
+                <option value="D">Cita larga</option>
+                <option value="t">Poco tiempo</option>
+                <option value="T">Mucho tiempo</option>
+                <option value="f">Cita larga con poco tiempo</option>
+                <option value="F">Cita larga con dia de la semana y poco tiempo</option>
+            </select>
+            <input type="text" id="inResult" readonly>
+            <button class="btnCopy" onclick=copy()>COPIAR</button>
+            <button class="btnReset" onclick=reset()>RESETEAR</button>
+        </div>
+    </div>
+
+    <script src="/js/timestamp.js"></script>
+</body>
+</html>
