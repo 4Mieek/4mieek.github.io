@@ -1,0 +1,1 @@
+Buenas, esta pagina esta hecha nomas para otorgar ciertas herramientas a los usuarios, las herramientas que creo son totalmente random y como sigo aprendiendo sobre el desarrollo de paginas web es una buena forma de seguir aprendiendo <3
