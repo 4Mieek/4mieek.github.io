@@ -28,20 +28,19 @@ body {
 
 .box{
     background-color: rgb(40, 43, 48);
-    padding: 2%;
+    padding: 4vh;
     border-radius: 16px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-    margin: 0;
 }
 
 .container {
     box-sizing: border-box;
+    margin-top: 2vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat((6, auto));
     gap: 2px;
 }
-
 
 .selectOption{
     border-radius: 0;
