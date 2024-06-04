@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Teko';
+    src: url(/fonts/Teko/static/Teko-Bold.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-family: 'Teko';
+    background-color: rgb(30, 33, 36);
+}
+
+.box {
+    text-align: center;
+}
+
+.title{
+    color: rgb(114, 137, 218);
+    font-size: 6vh;
+}
+
+.textStyle {
+    color: white;
+    text-align: left;
+}
+
+.box{
+    background-color: rgb(40, 43, 48);
+    padding: 2%;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat((6, auto));
+    gap: 2px;
+}
+
+
+.selectOption{
+    border-radius: 0;
+    border: none;
+}
+
+.btnCopy {
+    color: rgb(114, 137, 218);
+    background-color: #fff;
+    border: none;
+    font-family: 'Teko';
+    letter-spacing: 4px;
+}
+
+.btnReset {
+    color: rgb(114, 137, 218);
+    grid-column: span 2;
+    border: none;
+    background-color: #fff;
+    font-family: 'Teko';
+    letter-spacing: 4px;
+}
